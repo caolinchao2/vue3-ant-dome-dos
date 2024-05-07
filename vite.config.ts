@@ -108,6 +108,7 @@ export default defineConfig(({ mode }) => {
     build: {
       target: 'es2020',
       minify: 'terser',
+      outDir: 'docs',
       terserOptions: {
         compress: {
           drop_console: true, // 去除控制台打印语句
