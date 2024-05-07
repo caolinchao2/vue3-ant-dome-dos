@@ -11,6 +11,7 @@ export const constantRoutes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Index',
+    redirect: '/readme/form',
     meta: { title: '主页', icon: 'HomeOutlined' },
     component: Layout,
   },

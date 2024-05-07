@@ -16,7 +16,7 @@
   </div>
 </template>
 <script setup lang="ts">
-// import Icons from '@/common/components/Icons'
+import Icons from '@/common/components/Icons'
 import { iconRender } from '@/common/hook/icon'
 
 console.log('aaaaa')
