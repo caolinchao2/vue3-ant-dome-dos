@@ -97,7 +97,7 @@ export default defineConfig(({ mode }) => {
         targets: [
           {
             src: ['src/common/*.md'],
-            dest: 'dist/src',
+            dest: 'docs/src',
           }, // 将 src/static 目录下的资源复制到 assets 目录下
           // { src: 'node_modules/package/static', dest: 'assets' }, // 将 node_modules/package/static 目录下的资源复制到 assets 目录下
         ],
